@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3D9594452076B15700BCEECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9594442076B15700BCEECF /* AppDelegate.swift */; };
-		3D9594472076B15700BCEECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9594462076B15700BCEECF /* ViewController.swift */; };
 		3D95944A2076B15700BCEECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9594482076B15700BCEECF /* Main.storyboard */; };
 		3D95944C2076B15700BCEECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D95944B2076B15700BCEECF /* Assets.xcassets */; };
 		3D95944F2076B15700BCEECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D95944D2076B15700BCEECF /* LaunchScreen.storyboard */; };
 		3D95945A2076B15700BCEECF /* TindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9594592076B15700BCEECF /* TindTests.swift */; };
 		3D9594652076B15700BCEECF /* TindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9594642076B15700BCEECF /* TindUITests.swift */; };
+		3D9594732076B18200BCEECF /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9594722076B18200BCEECF /* CardsViewController.swift */; };
+		3D9594752076D20600BCEECF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9594742076D20600BCEECF /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		3D9594412076B15700BCEECF /* Tind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9594442076B15700BCEECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D9594462076B15700BCEECF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D9594492076B15700BCEECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D95944B2076B15700BCEECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D95944E2076B15700BCEECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		3D9594602076B15700BCEECF /* TindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9594642076B15700BCEECF /* TindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TindUITests.swift; sourceTree = "<group>"; };
 		3D9594662076B15700BCEECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D9594722076B18200BCEECF /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		3D9594742076D20600BCEECF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				3D9594442076B15700BCEECF /* AppDelegate.swift */,
-				3D9594462076B15700BCEECF /* ViewController.swift */,
 				3D9594482076B15700BCEECF /* Main.storyboard */,
 				3D95944B2076B15700BCEECF /* Assets.xcassets */,
 				3D95944D2076B15700BCEECF /* LaunchScreen.storyboard */,
 				3D9594502076B15700BCEECF /* Info.plist */,
+				3D9594722076B18200BCEECF /* CardsViewController.swift */,
+				3D9594742076D20600BCEECF /* ProfileViewController.swift */,
 			);
 			path = Tind;
 			sourceTree = "<group>";
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D9594472076B15700BCEECF /* ViewController.swift in Sources */,
+				3D9594752076D20600BCEECF /* ProfileViewController.swift in Sources */,
+				3D9594732076B18200BCEECF /* CardsViewController.swift in Sources */,
 				3D9594452076B15700BCEECF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
